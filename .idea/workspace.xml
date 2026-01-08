@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/bsque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/bubblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/miss3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/truedone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/strbul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +36,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dell/Downloads/journal/truedone/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.miss3">
+  <component name="RunManager" selected="Application.strbul">
     <configuration name="bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divyansh.bubblesort" />
       <module name="truedone" />
@@ -99,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="strbul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.strbul" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divyansh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.strbul" />
         <item itemvalue="Application.miss3" />
         <item itemvalue="Application.insertion" />
         <item itemvalue="Application.selection" />

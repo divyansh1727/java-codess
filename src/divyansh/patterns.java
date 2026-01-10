@@ -35,26 +35,40 @@ public class patterns {
 //
 //            }
             //ques.30
-            for (int row = 1; row <=2*n; row++) {
-                //c->no.totalcol
-                int c=row>n ? 2*n-row:row;
-                for (int spaces = 0; spaces <n-c ; spaces++) {
-                    System.out.print("  ");
+//            for (int row = 1; row <=2*n; row++) {
+//                //c->no.totalcol
+//                int c=row>n ? 2*n-row:row;
+//                for (int spaces = 0; spaces <n-c ; spaces++) {
+//                    System.out.print("  ");
+//
+//                }
+//                //before and for 1
+//                for (int cols = c; cols >=1; cols--) {
+//                    System.out.print(cols+" ");
+//                }
+//                //for right after 1 vslues
+//                for (int j = 2; j<=c; j++) {
+//                    System.out.print(j+" ");
+//                }
 
-                }
-                //before and for 1
-                for (int cols = c; cols >=1; cols--) {
-                    System.out.print(cols+" ");
-                }
-                //for right after 1 vslues
-                for (int j = 2; j<=c; j++) {
-                    System.out.print(j+" ");
-                }
+            //pattern 31
+            int original=n;
+            n=2*n;
+
+
+            for (int row = 0; row <=n ; row++) {
+                for (int cols = 0; cols <=n ; cols++) {
+                    int ateveryindex = original-Math.min(Math.min(row, cols), Math.min(n-row, n-cols));
+                        System.out.print(ateveryindex + " ");
+                    }
+
+
+
                 System.out.println();
-
             }
         }
-
         }
+
+
 
 

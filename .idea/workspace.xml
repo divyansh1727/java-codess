@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/divyansh/count0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/maths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/noofdigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/recur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/mergesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/pprecu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/quicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/recss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/recrotbs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/recur" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +42,48 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dell/Downloads/journal/truedone/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.count0">
-    <configuration name="count0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.count0" />
+  <component name="RunManager" selected="Application.quicksort">
+    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.mergesort" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divyansh.pprec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pprecu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.pprecu" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divyansh.pprec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.quicksort" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divyansh.pprec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recrotbs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.recrotbs" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -55,51 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="magic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.magic" />
+    <configuration name="recss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.recss" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divyansh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.maths" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="divyansh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="noofdigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.noofdigit" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="divyansh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.pal" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="divyansh.*" />
+          <option name="PATTERN" value="divyansh.pprec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.count0" />
-        <item itemvalue="Application.pal" />
-        <item itemvalue="Application.maths" />
-        <item itemvalue="Application.noofdigit" />
-        <item itemvalue="Application.magic" />
+        <item itemvalue="Application.quicksort" />
+        <item itemvalue="Application.mergesort" />
+        <item itemvalue="Application.recss" />
+        <item itemvalue="Application.pprecu" />
+        <item itemvalue="Application.recrotbs" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +129,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -135,6 +147,43 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/recss.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/mergesort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/recss.java</url>
+          <line>24</line>
+          <properties class="divyansh.pprec.recss" method="ss">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/mergesort.java</url>
+          <line>11</line>
+          <properties class="divyansh.pprec.mergesort" method="iiplace">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/quicksort.java</url>
+          <line>12</line>
+          <properties class="divyansh.pprec.quicksort" method="sort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

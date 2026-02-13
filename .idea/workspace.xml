@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/mergesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/pprecu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/quicksort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/recss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/rec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divyansh/recrotbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/strrec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/subseq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divyansh/recur" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +37,9 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dell/Downloads/journal/truedone/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.quicksort">
-    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.mergesort" />
+  <component name="RunManager" selected="Application.subseq">
+    <configuration name="ascirec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.ascirec" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pprecu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.pprecu" />
+    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.mergesort" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recrotbs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.recrotbs" />
+    <configuration name="strrec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.strrec" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divyansh.*" />
+          <option name="PATTERN" value="divyansh.pprec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.recss" />
+    <configuration name="subseq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.subseq" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.subseq" />
+        <item itemvalue="Application.ascirec" />
+        <item itemvalue="Application.strrec" />
         <item itemvalue="Application.quicksort" />
         <item itemvalue="Application.mergesort" />
-        <item itemvalue="Application.recss" />
-        <item itemvalue="Application.pprecu" />
-        <item itemvalue="Application.recrotbs" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +179,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/strrec.java</url>
+          <line>9</line>
+          <properties class="divyansh.pprec.strrec" method="strskip">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/divyansh/pprec/subseq.java</url>
+          <line>11</line>
+          <properties class="divyansh.pprec.subseq" method="subseq">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

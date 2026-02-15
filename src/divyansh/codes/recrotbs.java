@@ -1,4 +1,4 @@
-package divyansh;
+package divyansh.codes;
 
 public class recrotbs {
     public static void main(String[] args) {

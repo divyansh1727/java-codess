@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/divyansh/pprec/sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quesrec/sumtri.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/bsque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/bsque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/bubblesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/count0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/count0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/magic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/magic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/maths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/maths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/miss3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/miss3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/noofdigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/noofdigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/pal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/pal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/rec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/recrotbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/recrotbs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divyansh/strbul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divyansh/codes/strbul.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +52,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.sudoku">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="divyansh" />
+      <recent name="divyansh.pprec" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.sumtri">
     <configuration name="backtrrec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divyansh.pprec.backtrrec" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="divyansh.pprec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divyansh.pprec.dice" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sumtri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quesrec.sumtri" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quesrec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sumtri" />
         <item itemvalue="Application.sudoku" />
         <item itemvalue="Application.nknights" />
         <item itemvalue="Application.nqueen" />
         <item itemvalue="Application.backtrrec" />
-        <item itemvalue="Application.dice" />
       </list>
     </recent_temporary>
   </component>

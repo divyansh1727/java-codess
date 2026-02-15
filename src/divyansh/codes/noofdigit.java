@@ -1,4 +1,4 @@
-package divyansh;
+package divyansh.codes;
 
 public class noofdigit {
     public static void main(String[] args) {

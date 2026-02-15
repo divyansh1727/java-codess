@@ -1,4 +1,4 @@
-package divyansh;
+package divyansh.codes;
 
 import java.util.Arrays;
 

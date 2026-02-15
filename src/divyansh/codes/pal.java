@@ -1,4 +1,4 @@
-package divyansh;
+package divyansh.codes;
 public class pal {
     public static void main(String[] args) {
         System.out.println(palin(1234321));

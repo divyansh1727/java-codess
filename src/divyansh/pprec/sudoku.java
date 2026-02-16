@@ -22,6 +22,7 @@ public class sudoku {
     }
     static boolean solve(int[][] board) {
         int n = board.length;
+        //done for avoiding of the over-ridding
         int row = -1;
         int col = -1;
         boolean emptyleft=true;
@@ -44,12 +45,11 @@ public class sudoku {
             //sudoku solved
         }
         //backtrack
-        for (int number = 1; number <9; number++) {
+        for (int number = 1; number <=9; number++) {
             if (isSafe(board,row,col,number)){
                 board[row][col]=number;
                 if (solve(board)){
                     //ans found
-                    display(board);
                     return true;
                 }else {
                     //backtrack
@@ -74,7 +74,7 @@ public class sudoku {
     static boolean isSafe(int[][] board, int row, int col, int num){
         for (int i = 0; i < board.length; i++) {
             //check if no. is in the row
-            if(board[row][col]==num){
+            if(board[row][i]==num){
                 return false;
             }
         }

@@ -1,13 +1,16 @@
-package oops.oops3;
+package oops.oops3inh;
 //inheritance example
 public class box {
     double l;
     double h;
     double b;
+//    double w;
+
     box(){
         this.l=-1;
         this.h=-1;
         this.b=-1;
+//        this.w=-2;
 
     }
     //cube

@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/brake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/cdplayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/eleceng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/extendDemo/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/extendDemo/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/extendDemo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/nested/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/nested/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/nicecar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/inter/powereng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/customal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/customgenral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/genericinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/objcompare/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/objcompare/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/oops6/wildcard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "onboarding.tips.debug.path": "C:/Users/dell/Downloads/journal/truedone/src/Main.java",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dell/Downloads/journal/truedone/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="oops" />
@@ -60,8 +53,11 @@
       <recent name="divyansh" />
       <recent name="divyansh.pprec" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oops.oops6" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.oops.inter.nested.Main">
+  <component name="RunManager" selected="Application.oops.oops6.objcompare.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.inter.Main" />
       <module name="truedone" />
@@ -75,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="objectdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oops4.objectdemo" />
+    <configuration name="customal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.oops6.customal" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.oops4.*" />
+          <option name="PATTERN" value="oops.oops6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="customgenral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.oops6.customgenral" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.oops6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oops.oops5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oops5.Main" />
+    <configuration name="oops.oops6.objcompare.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.oops6.objcompare.Main" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.oops5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="subclas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.subclas" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="oops.oops6.objcompare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oops.oops6.objcompare.Main" />
+        <item itemvalue="Application.customgenral" />
+        <item itemvalue="Application.customal" />
         <item itemvalue="Application.oops.inter.nested.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.oops.oops5.Main" />
-        <item itemvalue="Application.subclas" />
-        <item itemvalue="Application.objectdemo" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +187,11 @@
           <url>file://$PROJECT_DIR$/src/oops/inter/nested/A.java</url>
           <line>8</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/oops/oops6/objcompare/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/divyansh/pprec/recss.java</url>

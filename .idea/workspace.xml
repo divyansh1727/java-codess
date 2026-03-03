@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oops/oop7/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/oop7/Bshallow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/oop7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/oop7/deep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/oops6/lambdafun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/enums/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/enums/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,20 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Basic">
+    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.enums.Basic" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.oop7.Main" />
       <module name="truedone" />
@@ -70,38 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="customal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oops6.customal" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.oops6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="customgenral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oops6.customgenral" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.oops6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lambdafun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.oops6.lambdafun" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oops.oops6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oops.collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.collections.Main" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basic" />
+        <item itemvalue="Application.oops.collections.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lambdafun" />
         <item itemvalue="Application.oops.oops6.objcompare.Main" />
-        <item itemvalue="Application.customgenral" />
-        <item itemvalue="Application.customal" />
       </list>
     </recent_temporary>
   </component>

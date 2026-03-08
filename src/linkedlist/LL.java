@@ -28,6 +28,70 @@ public class LL {
         tail=node;
             size++;
     }
+    public void insert(int val, int index){
+        if(index==0){
+            insertfirst(val);
+            return;
+        }
+        if(index==size){
+            insertlast(val);
+            return ;
+        }
+        Node temp=head;
+        for (int i = 1; i < index; i++) {
+            temp=temp.next;
+
+        }
+        Node node=new Node(val,temp.next);
+        temp.next=node;
+        size++;
+
+    }
+    public Node get(int index){
+        Node node=head;
+        for (int i = 0; i < index; i++) {
+            node=node.next;
+
+        }
+        return node;
+    }
+
+    //delete through indexes
+    public int delete(int index){
+        if(index==0){
+            return deletefirst();
+        }
+        if(index==size-1){
+            return deletelast();
+        }
+        Node prev=get(index-1);
+        int val=prev.next.value;
+        //to avoid the chain and delete the item without making chain and get connected directly to the next node
+        prev.next=prev.next.next;
+        return val;
+    }
+
+    public int deletefirst(){
+        int val=head.value;
+        head=head.next;
+        if(head==null){
+            tail=null;
+        }
+        size--;
+        return val;
+    }
+    public int deletelast() {
+        if (size <= 1) {
+            return deletefirst();
+        }
+        Node secondlast = get(size - 2);
+        int value = tail.value;
+        tail = secondlast;
+        tail.next = null;
+        return value;
+    }
+
+
     public void display(){
         Node temp=head;
         while(temp!=null){

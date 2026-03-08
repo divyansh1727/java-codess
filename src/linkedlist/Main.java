@@ -11,8 +11,12 @@ public class Main {
         list.insertfirst(32);
         list.insertfirst(1);
         list.insertfirst(2);
-        list.insertlast(23);
         list.insertfirst(320);
+        list.insert(99,3);
+        list.insertlast(23);
+        System.out.println(list.deletefirst());
+        System.out.println(list.deletelast());
+        System.out.println(list.delete(4));
         list.display();
 
     }

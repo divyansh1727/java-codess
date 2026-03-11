@@ -1,7 +1,5 @@
 package linkedlist;
 
-import org.w3c.dom.Node;
-
 public class LL {
     private Node head;
     private Node tail;
@@ -9,6 +7,7 @@ public class LL {
     public LL(){
         this.size=0;
     }
+
     public void insertfirst(int val){
         Node node=new Node(val);
         node.next=head;
@@ -18,6 +17,7 @@ public class LL {
         }
         size+=1;
     }
+
     public void insertlast(int val){
         if(tail==null){
             insertfirst(val);
@@ -55,7 +55,17 @@ public class LL {
         }
         return node;
     }
-
+//find node
+    public Node find(int value){
+        Node node=head;
+        while(node!=null){
+            if(node.value==value){
+                return node;
+            }
+            node=node.next;
+        }
+        return null;
+    }
     //delete through indexes
     public int delete(int index){
         if(index==0){
@@ -80,6 +90,22 @@ public class LL {
         size--;
         return val;
     }
+    //insert using recursion
+    //Q1
+    public void insertrec(int val,int index){
+        head=insertrec(val,index,head);
+
+    }
+    private Node insertrec(int val, int index, Node node){
+        if(index==0){
+            Node temp=new Node(val,node);
+            size++;
+            return temp ;
+        }
+        node.next= insertrec(val,index-1,node.next);
+        return node;
+    }
+
     public int deletelast() {
         if (size <= 1) {
             return deletefirst();
@@ -91,7 +117,6 @@ public class LL {
         return value;
     }
 
-
     public void display(){
         Node temp=head;
         while(temp!=null){
@@ -101,7 +126,6 @@ public class LL {
         System.out.println("end");
 
     }
-
 
     private class Node {
         private int value;
@@ -115,4 +139,34 @@ public class LL {
             this.next = next;
         }
     }
+    //questions
+    //dupliacte
+    public void duplicate(){
+        Node node=head;
+        while(node.next!=null){
+            if(node.value==node.next.value){
+                node.next=node.next.next;
+                size--;
+            }else {
+                node=node.next;
+            }
+        }
+        tail=node;
+        tail.next=null;
+    }
+
+    public static void main(String[] args) {
+        LL list=new LL();
+        list.insertlast(1);
+        list.insertlast(1);
+        list.insertlast(1);
+        list.insertlast(2);
+        list.insertlast(4);
+        list.insertlast(4);
+        list.display();
+        list.duplicate();
+        list.display();
+
+    }
+    
 }

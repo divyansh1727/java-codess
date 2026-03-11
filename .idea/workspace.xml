@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/circular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/dll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/Main.java" afterDir="false" />
@@ -53,7 +55,7 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.linkedlist.Main">
+  <component name="RunManager" selected="Application.LL">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.enums.Basic" />
       <module name="truedone" />
@@ -67,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oop7.Main" />
+    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LL" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.oop7.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lambdafun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oops6.lambdafun" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.oop7.Main" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.oops6.*" />
+          <option name="PATTERN" value="oops.oop7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LL" />
         <item itemvalue="Application.linkedlist.Main" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.oops.collections.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.lambdafun" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +280,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/linkedlist/dll.java</url>
+          <line>75</line>
+          <properties class="linkedlist.dll.Node" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/linkedlist/LL.java</url>
+          <line>98</line>
+          <properties class="linkedlist.LL" method="insertrec">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

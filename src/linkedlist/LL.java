@@ -154,18 +154,57 @@ public class LL {
         tail=node;
         tail.next=null;
     }
+    //q3. merge
+    public static LL mergelist(LL first, LL second){
+        Node f=first.head;
+        Node s= second.head;
+        LL ans=new LL();
+        while(f!=null && s!=null){
+            if(f.value<s.value){
+                ans.insertlast(f.value);
+                f=f.next;
+            }else{
+                ans.insertlast(s.value);
+                s=s.next;
+            }
+        }
+        while(f!=null){
+            ans.insertlast(f.value);
+            f=f.next;
+        }
+        while(s!=null) {
+            ans.insertlast(s.value);
+            s = s.next;
+        }
+        return ans;
+
+    }
 
     public static void main(String[] args) {
-        LL list=new LL();
-        list.insertlast(1);
-        list.insertlast(1);
-        list.insertlast(1);
-        list.insertlast(2);
-        list.insertlast(4);
-        list.insertlast(4);
-        list.display();
-        list.duplicate();
-        list.display();
+//        LL list=new LL();
+//        list.insertlast(1);
+//        list.insertlast(1);
+//        list.insertlast(1);
+//        list.insertlast(2);
+//        list.insertlast(4);
+//        list.insertlast(4);
+//        list.display();
+//        list.duplicate();
+//        list.display();
+        LL first=new LL();
+        LL second=new LL();
+        first.insertlast(1);
+        first.insertlast(3);
+        first.insertlast(5);
+        second.insertlast(1);
+        second.insertlast(2);
+        second.insertlast(9);
+        second.insertlast(14);
+        LL ans=LL.mergelist(first,second);
+        ans.display();
+
+
+
 
     }
     

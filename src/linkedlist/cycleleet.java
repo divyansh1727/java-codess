@@ -1,5 +1,7 @@
 package linkedlist;
 
+import static java.util.Collections.reverse;
+
 //q4.cycle present??
 public class cycleleet {
     public boolean hasCycle(ListNode head) {
@@ -14,6 +16,8 @@ public class cycleleet {
         }
         return false;
     }
+    //reverse
+
     //q5.length of cycle
     public int lengthCycle(ListNode head) {
         ListNode fast=head;
@@ -103,6 +107,47 @@ public class cycleleet {
     }
     //sort ll
 
+    public boolean isPalindrome(ListNode head) {
+        ListNode mid = middleNode(head);
+        ListNode headsecond=reverse(mid);
+        ListNode revhead=headsecond;
+        while(head!=null && headsecond!=null){
+            if(head.val !=headsecond.val){
+                break;
+            }
+            head=head.next;
+            headsecond=headsecond.next;
+
+        }
+        reverse(revhead);
+        return head==null && headsecond==null;
+
+    }
+
+    public void reorderList(ListNode head) {
+        if(head==null || head.next==null){
+            return;
+        }
+        ListNode mid=middleNode(head);
+        ListNode hs=reverseList(mid);
+        ListNode hf=head;
+        //rearrange
+        while(hf!=null && hs!=null){
+            ListNode temp=hf.next;
+            hf.next=hs;
+            hf=temp;
+            temp=hs.next;
+            hs.next=hf;
+            hs=temp;
+        }
+        //setting of next of tail to null
+        if(hf!=null){
+            hf.next=null;
+        }
+
+
+
+    }
 }
 
 
@@ -110,3 +155,4 @@ class ListNode{
     int val;
     ListNode next;
 }
+

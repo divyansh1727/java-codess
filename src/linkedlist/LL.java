@@ -179,6 +179,182 @@ public class LL {
         return ans;
 
     }
+    //recursion rev linked list
+    private void reverse(Node node){
+        if(node==tail){
+            head=tail;
+            return;
+        }
+        reverse(node.next);
+        tail.next=node;
+        tail=node;
+        tail.next=null;
+    }
+    //inplace rec rev
+    public void rev(){
+        if(size<2){
+            return;
+;        }
+        Node prev=null;
+        Node present=head;
+        Node next=present.next;
+        while(present!=null){
+            present.next=prev;
+            prev=present;
+            present=next;
+            if(next!=null){
+                next=next.next;
+            }
+        }
+        head=prev;
+    }
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if(left==right){
+            return head;
+            //present means the current node we are standing on
+        }//skip the first ->? left-1 nodes
+        ListNode present=head;
+        ListNode prev=null;
+        for (int i = 0;  present!=null && i<left-1; i++) {
+            prev=present;
+            present=present.next;
+
+        }
+        ListNode last=prev;
+        ListNode newend=present;
+        //reeverse
+        ListNode next=present.next;
+        for (int i = 0; present!=null && i < right-left+1; i++) {
+            present.next=prev;
+            prev=present;
+            present=next;
+            if(next!=null){
+                next=next.next;
+            }
+        }
+        if (last != null) {
+            last.next=prev;
+        }else{
+            head=prev;
+        }
+        newend.next=present;
+        return head;
+    }
+
+    //reveresw k-group
+    public ListNode reverseKGroup(ListNode head, int k) {
+        if (k <= 1 || head == null) {
+            return head;
+        }
+        ListNode current = head;
+        ListNode prev = null;
+
+        int length = getLength(head);
+        int count = length / k;
+        while (count > 0) {
+            ListNode last = prev;
+            ListNode newEnd = current;
+
+            ListNode next = current.next;
+            for (int i = 0; current != null && i < k; i++) {
+                current.next = prev;
+                prev = current;
+                current = next;
+                if (next != null) {
+                    next = next.next;
+                }
+            }
+
+            if (last != null) {
+                last.next = prev;
+            } else {
+                head = prev;
+            }
+
+            newEnd.next = current;
+
+            prev = newEnd;
+            count--;
+        }
+        return head;
+    }
+
+    public int getLength(ListNode head) {
+        ListNode node = head;
+        int length = 0;
+        while (node != null) {
+            length++;
+            node = node.next;
+        }
+        return length;
+    }
+
+    public ListNode reverseAlternateKGroup(ListNode head, int k) {
+        if (k <= 1 || head == null) {
+            return head;
+        }
+
+        // skip the first left-1 nodes
+        ListNode current = head;
+        ListNode prev = null;
+
+        while (current != null) {
+            ListNode last = prev;
+            ListNode newEnd = current;
+
+            // reverse between left and right
+            ListNode next = current.next;
+            for (int i = 0; current != null && i < k; i++) {
+                current.next = prev;
+                prev = current;
+                current = next;
+                if (next != null) {
+                    next = next.next;
+                }
+            }
+
+            if (last != null) {
+                last.next = prev;
+            } else {
+                head = prev;
+            }
+
+            newEnd.next = current;
+
+            // skip the k nodes
+            for (int i = 0; current != null && i < k; i++) {
+                prev = current;
+                current = current.next;
+            }
+        }
+        return head;
+    }
+    //rotate the list
+    public ListNode rotateRight(ListNode head, int k) {
+        if(k<=0 || head==null || head.next==null){
+            return head;
+        }
+        ListNode last=head;
+        int length=1;
+        while(last.next!=null){
+            last=last.next;
+            length++;
+        }
+        last.next=head;
+        int rotation =k%length;
+        int skip=length-rotation;
+        ListNode newlast=head;
+        for (int i = 0; i <skip-1 ; i++) {
+            newlast=newlast.next;
+        }
+        head= newlast.next;
+        newlast.next=null;
+        return head;
+
+    }
+
+
+
 
     public static void main(String[] args) {
 //        LL list=new LL();

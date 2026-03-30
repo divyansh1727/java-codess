@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/saq/Circularqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/Custoqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/DynamicQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/DynamicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/QueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/StackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/StackMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/TwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/inbuiltex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/queueusingstack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/queueusingstackremove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/cycleleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/cycleleet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inbuiltex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/LL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/Mergesort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/circular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/cycleleet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/dll.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +67,18 @@
       <recent name="divyansh.pprec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="saq" />
       <recent name="oops.oop7" />
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LL">
-    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.enums.Basic" />
+  <component name="RunManager" selected="Application.TwoStacks">
+    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saq.QueueMain" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.enums.*" />
+          <option name="PATTERN" value="saq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LL" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saq.StackMain" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="saq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.oop7.Main" />
+    <configuration name="TwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saq.TwoStacks" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.oop7.*" />
+          <option name="PATTERN" value="saq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linkedlist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Main" />
+    <configuration name="inbuiltex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saq.inbuiltex" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="saq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oops.collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.collections.Main" />
+    <configuration name="q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saq.q1" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.collections.*" />
+          <option name="PATTERN" value="saq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LL" />
-        <item itemvalue="Application.linkedlist.Main" />
-        <item itemvalue="Application.Basic" />
-        <item itemvalue="Application.oops.collections.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TwoStacks" />
+        <item itemvalue="Application.q1" />
+        <item itemvalue="Application.QueueMain" />
+        <item itemvalue="Application.StackMain" />
+        <item itemvalue="Application.inbuiltex" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +174,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/inbuiltex.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -288,15 +306,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/linkedlist/LL.java</url>
-          <line>98</line>
-          <properties class="linkedlist.LL" method="insertrec">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

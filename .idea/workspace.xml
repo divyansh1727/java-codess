@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/saq/Circularqueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/CustomStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/Custoqueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/DynamicQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/DynamicStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/QueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/StackException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/StackMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/TwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/inbuiltex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/queueusingstack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/queueusingstackremove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/recthistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/valid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saq/validreq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inbuiltex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/Mergesort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/circular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/cycleleet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/dll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saq/TwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saq/TwoStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

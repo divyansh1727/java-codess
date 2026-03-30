@@ -1,5 +1,5 @@
 package saq;
-
+//game of 2 stacks
 import java.util.Arrays;
 import java.util.Scanner;
 

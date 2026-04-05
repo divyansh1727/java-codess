@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/saq/recthistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/valid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saq/validreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt/bst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt/pathsum/ps1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt/q1btot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt/treesl1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saq/TwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saq/TwoStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +57,9 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoStacks">
+  <component name="RunManager" selected="Application.bst">
     <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="saq.QueueMain" />
-      <module name="truedone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="saq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="saq.StackMain" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inbuiltex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="saq.inbuiltex" />
+    <configuration name="bst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.bst" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saq.*" />
+          <option name="PATTERN" value="bt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="treesl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bt.treesl1" />
+      <module name="truedone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bst" />
+        <item itemvalue="Application.treesl1" />
         <item itemvalue="Application.TwoStacks" />
         <item itemvalue="Application.q1" />
         <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.StackMain" />
-        <item itemvalue="Application.inbuiltex" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +286,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/linkedlist/dll.java</url>
           <line>75</line>
-          <properties class="linkedlist.dll.Node" method="&lt;init&gt;">
+          <properties class="linkedlist.dll.Node">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

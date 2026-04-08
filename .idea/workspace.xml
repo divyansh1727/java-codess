@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Avl/avl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/Heaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/segmenttree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bt/pathsum/ps1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bt/pathsum/ps1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bt/q1btot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bt/q1btot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +55,13 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.avl">
-    <configuration name="TwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="saq.TwoStacks" />
+  <component name="RunManager" selected="Application.Heaps">
+    <configuration name="Heaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.Heaps" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="saq.*" />
+          <option name="PATTERN" value="Avl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.bst" />
+    <configuration name="segmenttree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.segmenttree" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treesl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.treesl1" />
+    <configuration name="segmenttree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.segmenttree" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Heaps" />
+        <item itemvalue="Application.segmenttree (1)" />
+        <item itemvalue="Application.segmenttree" />
         <item itemvalue="Application.avl" />
         <item itemvalue="Application.avl (1)" />
-        <item itemvalue="Application.bst" />
-        <item itemvalue="Application.treesl1" />
-        <item itemvalue="Application.TwoStacks" />
       </list>
     </recent_temporary>
   </component>

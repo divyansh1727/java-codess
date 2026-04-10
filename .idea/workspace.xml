@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Avl/Heaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avl/segmenttree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/Hashmaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/hashmapfinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +55,9 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Heaps">
-    <configuration name="Heaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Avl.Heaps" />
+  <component name="RunManager" selected="Application.Hashmaps">
+    <configuration name="Hashmaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.Hashmaps" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="avl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Avl.avl" />
+    <configuration name="Heaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.Heaps" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hashmaps" />
         <item itemvalue="Application.Heaps" />
         <item itemvalue="Application.segmenttree (1)" />
         <item itemvalue="Application.segmenttree" />
         <item itemvalue="Application.avl" />
-        <item itemvalue="Application.avl (1)" />
       </list>
     </recent_temporary>
   </component>

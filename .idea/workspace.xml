@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Avl/Hashmaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avl/hashmapfinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/karp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Avl/Hashmaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Avl/Hashmaps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="oops.oops6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hashmaps">
+  <component name="RunManager" selected="Application.karp">
     <configuration name="Hashmaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Avl.Hashmaps" />
       <module name="truedone" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="avl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Avl.avl" />
+    <configuration name="karp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avl.karp" />
       <module name="truedone" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.karp" />
         <item itemvalue="Application.Hashmaps" />
         <item itemvalue="Application.Heaps" />
         <item itemvalue="Application.segmenttree (1)" />
         <item itemvalue="Application.segmenttree" />
-        <item itemvalue="Application.avl" />
       </list>
     </recent_temporary>
   </component>

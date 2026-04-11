@@ -60,7 +60,8 @@ public class Hashmaps {
             map.put("mangto", "king");
             map.put("apple", "sweet");
             System.out.println((map.get("apple")));
-            System.out.println((map.remove("apple")));
+            //
+            // System.out.println((map.remove("apple")));
 
         }
     }

@@ -18,7 +18,8 @@ public class ques {
     public TreeNode helper(int[] preorder, int[] inorder, int left, int right,
                            HashMap<Integer, Integer> map, int[] index) {
 
-        if (left > right) return null;
+        if (left > right)
+            return null;
 
         int current = preorder[index[0]];
         index[0]++;

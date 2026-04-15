@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b5f3f4-c37b-46cd-a4f6-65d9cfbc4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/verticalq2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/Twosum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/btodll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/bttwoswap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avl/kthSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ques.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
